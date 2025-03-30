@@ -6,7 +6,7 @@ use anchor_spl::token::{self, Mint, Token, TokenAccount, MintTo};
 declare_id!("EGn97R6FkiA9HGRQzrrpL2w7XWY11cmUvHbtYPC6XcCR");
 
 // Constants for token rewards
-const REWARD_RATE: u64 = 10; // Tokens per second
+const REWARD_RATE: u64 = 1000; // 0.001 token per second per SOL staked
 
 #[program]
 pub mod stake {
